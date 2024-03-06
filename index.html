@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Fernando Siqueira</title>
+    <style>
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 15px;
+        }
+        .container {
+            padding: 0 5vw 0 250px;
+            align-items: center;
+            width: 70vw;
+            display: flex;
+            text-align: justify;
+
+        }
+
+        .contato p {
+            font-weight: bolder;
+            font-size: large;
+        }
+
+        .contato p #phone {
+            color: green;
+            font-weight: bolder;
+        }
+
+        .contato p #mail {
+            color: black;
+        }
+
+        .foto img {
+            border-radius: 50%;
+            max-width: 200px;
+            width: auto;
+            border-radius: 0.7;
+            padding: 10px;
+        }
+
+        .exp-empresa {
+            font-weight: bolder;
+            font-size: large;
+        }
+
+        .formacao-inst,
+        .formacao-nome,
+        .curso-inst {
+            font-weight: bolder;
+        }
+
+        .formacao {
+            padding: 10px 0;
+        }
+
+        .curso {
+            padding: 4px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="foto"><img src="./img/photo.jpg" alt="foto de Fernando Siqueira"></p>
+        </header>
+        <main>
+            <h1>Fernando Siqueira</h1>
+            <section class="contato">
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=5531975011752" id="phone"><img
+                            src="./img/up-right-arrow.png"> 31 97501-1752</a> |
+                    <a href="mailto:fernandosiqueira994@gmail.com" target="_blank" id="mail"><img
+                            src="./img/up-right-arrow.png"> fernandosiqueira994@gmail.com</a> |
+                    <a href="https://www.linkedin.com/in/fesiq" target="_blank" id="l inkedin"><img
+                            src="./img/up-right-arrow.png"> LinkedIn</a> |
+                    <a href="https://github.com/fesiq/" target="_blank" id="github"><img src="./img/up-right-arrow.png">
+                        GitHub</a><br>
+                    <span id="cidade">Belo Horizonte - MG</span>
+                </p>
+            </section>
+            <section class="introduce">
+                <p>Experiente em diversos setores, com destaque para faturamento, financeiro e suporte de TI.
+                    Comunicativo, colaborativo, com domínio do Microsoft Office (especialmente Excel), e sistemas ERP
+                    como TOTVS e SYDLE.</p>
+
+                <p>Busco oportunidade para atuar em nível iniciante na área de Tecnologia.</p>
+            </section>
+
+            <section class="experiencias-prof">
+                <h2>Experiências Profissionais</h2>
+                <div class="experiencia">
+                    <span class="exp-empresa">Construtora Barbosa Mello - Estagiário em Infraestrutura de TI</span><br>
+                    <span class="exp-periodo">Maio/2022 a setembro/2023</span><br>
+                    <p class="exp-descricao">Suporte de nível 1 aos colaboradores de forma presencial e remota;
+                        licenciamento de software Microsoft (CSP), preparação de documentos; acompanhamento de
+                        incidentes; atividades de administração de domínio híbrido Microsoft (Azure/Windows Server);
+                        manutenção e limpeza de equipamentos; instalação, configuração e movimentação de equipamentos;
+                        gerenciamento de ativos de TI com software de inventário; interface com fornecedores; backup de
+                        computadores e caixa de email; substituição de computadores; registro de informações nos ERPs
+                        Protheus e Sydle (Service Desk); outras atividades sob demanda.</p>
+                </div>
+                <div class="experiencia">
+                    <span class="exp-empresa">Bernoulli Educação - Assistente de faturamento</span><br>
+                    <span class="exp-periodo">Dezembro/2016 a dezembro/2019</span><br>
+
+                    <p class="exp-descricao">Emissão, cancelamento, correção e envio de boletos e notas fiscais de
+                        produtos e serviços, com o uso de pequenas consultas SQL, arquivos de remessa e retorno (CNAB
+                        400), baixas de recebimentos, e conciliação bancária; cadastro, parametrização, manutenção e
+                        teste e implementação de novas filiais, inclusive para a nova Plataforma de Cobrança Bancária,
+                        no sistema TOTVS RM; contato contínuo com o banco; Ajustes de planos, bolsas e negociações.
+                        Suporte e treinamento periódicos à tesouraria e secretaria; reportes periódicos à diretoria e
+                        contabilidade.
+                    </p>
+                </div>
+            </section>
+
+            <section class="formacao-acad">
+                <h2>Formação Acadêmica</h2>
+                <div class="formacao">
+                    Bacharelado em <span class="formacao-nome">Engenharia de Software</span> - 2º período -
+                    <span class="formacao-status"> Cursando (previsão formatura Dez./2027)</span> <br>
+                    <span class="formacao-inst">Pontifícia Universidade Católica Minas Gerais</span> - Praça da
+                    Liberdade - Noturno
+                </div>
+                <div class="formacao">
+                    Tecnólogo em <span class="formacao-nome">Análise e Desenvolvimento de Sistemas</span> - 5º período -
+                    <span class="formacao-status">Transferido</span> <br>
+                    <span class="formacao-inst">Centro Universitário Una de Belo Horizonte</span> - Noturno
+                </div>
+            </section>
+            <section class="cursos"></section>
+            <h2>Cursos</h2>
+            <ul class="lista-cursos">
+                <li class="curso"> <span class="curso-inst">AWS Skill Builder</span> - Amazon Web Services Technical
+                    Essentials - Cursando</li>
+                <li class="curso"> <span class="curso-inst">Programming Hub</span> - Python 3 Foundations - 2023</li>
+                <li class="curso"> <span class="curso-inst">Oracle University</span> - Oracle Cloud Infrastructure
+                    Foundations - 2022</li>
+                <li class="curso"> <span class="curso-inst">Faculdade Pitágoras</span> - Gestão Financeira Empresarial -
+                    2021</li>
+                <li class="curso"> <span class="curso-inst">Digital Innovation One</span> - “SQL SERVER - primeiras
+                    consultas” (Microsoft SSMS) - 2021</li>
+                <li class="curso"> <span class="curso-inst">Digital Innovation One</span> - Introdução ao GIT e Controle
+                    de Versões - 2020</li>
+                <li class="curso"> <span class="curso-inst">SENAI CFP Euvaldo Lodi</span> - Aprendiz Processos
+                    Administrativos (Alnutri Alimentos) - 2014</li>
+            </ul>
+        </main>
+    </div>
+</body>
+
+</html>
