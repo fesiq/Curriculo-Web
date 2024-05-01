@@ -61,4 +61,8 @@ header{
     header {
         visibility: hidden;
     }
+    .container {
+        padding: 0 50px 0;
+        width: auto;    
+    }
 }
