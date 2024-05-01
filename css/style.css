@@ -82,6 +82,9 @@ header{
     body{
         padding-top: 20px;
     }
+    #mailadd, #linkedin, #github{
+        color: black;
+    }
     .container {
         padding: 0 50px 0;
         width: auto;    
