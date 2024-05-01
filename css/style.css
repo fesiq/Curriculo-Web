@@ -58,7 +58,7 @@ header{
     padding: 4px 0;
 }
 @media print{
-    header, img {
+    header {
         visibility: hidden;
     }
 }
