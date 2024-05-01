@@ -79,6 +79,9 @@ header{
     header, #objetivo, #rodape {
         visibility: hidden;
     }
+    body{
+        padding-top: 20px;
+    }
     .container {
         padding: 0 50px 0;
         width: auto;    
