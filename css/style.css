@@ -61,9 +61,22 @@ header{
     padding: 4px 0;
 }
 
+/* IDs */
+
+#rodape {
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+  }
+
 /* media query de impressão */
 @media print{
-    header, #objetivo {
+    header, #objetivo, #rodape {
         visibility: hidden;
     }
     .container {
