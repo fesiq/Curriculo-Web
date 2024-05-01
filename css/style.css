@@ -1,9 +1,12 @@
+/* elementos */
 header{
     position: fixed;
     top: 0;
     left: 0;
     padding: 15px;
 }
+
+/* classes */
 .container {
     padding: 0 5vw 0 250px;
     align-items: center;
@@ -57,6 +60,8 @@ header{
 .curso {
     padding: 4px 0;
 }
+
+/* media query de impressão */
 @media print{
     header {
         visibility: hidden;
