@@ -63,7 +63,7 @@ header{
 
 /* media query de impressão */
 @media print{
-    header {
+    header, #objetivo {
         visibility: hidden;
     }
     .container {
