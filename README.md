@@ -15,7 +15,7 @@ Este currículo web é uma representação interativa das minhas habilidades, ex
 
 ## Como Visualizar
 
-Você pode visualizar o currículo online visitando [https://fesiq.github.io/DIW-24-1-Curriculo/](https://fesiq.github.io/DIW-24-1-Curriculo/).
+Você pode visualizar o currículo online visitando [https://fesiq.github.io/Curriculo-Web/](https://fesiq.github.io/Curriculo-Web/).
 
 ## Como Contribuir
 
