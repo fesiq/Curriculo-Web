@@ -90,3 +90,13 @@ header{
         width: auto;    
     }
 }
+/* media query para retrato */
+@media (orientation: portrait) {
+    header{
+        visibility: hidden;
+    }
+    .container {
+        padding: 50px 5vw;
+        width: 80vw; 
+    }
+}
