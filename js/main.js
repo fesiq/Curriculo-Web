@@ -1,3 +1,8 @@
+// Event liastener para carregamento do DOM
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM totalmente carregado.');
+});
+
 // Event listener para o link do email
 document.getElementById('mailadd').addEventListener('click', function () {
     console.log('Usuário clicou no link de email.');
