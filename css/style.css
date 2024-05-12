@@ -96,6 +96,6 @@ header{
     }
     .container {
         padding: 50px 5vw;
-        width: 90vw; 
+        max-width: 90vw; 
     }
 }
