@@ -1,6 +1,8 @@
 // Event liastener para carregamento do DOM
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM totalmente carregado.');
+    const userAgent = window.navigator.userAgent;
+    console.log('User Agent: ', userAgent);
 });
 
 // Event listener para o link do email
