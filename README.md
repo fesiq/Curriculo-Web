@@ -20,4 +20,6 @@ Você pode visualizar o currículo online visitando [https://fesiq.github.io/Cur
 
 Se você encontrar algum problema ou tiver sugestões de melhorias, fique à vontade entrar em contato comigo. No futuro, desejo disponibilizar um template deste projeto.
 
-Este é o repositório do meu currículo web, desenvolvido inicialmente como uma atividade da disciplina de Desenvolvimento de Interfaces Web na faculdade. Decidi continuar o projeto como um projeto pessoal para mostrar minhas habilidades e experiências.
+## Origem do projeto
+
+Concebido como uma atividade da disciplina de Desenvolvimento de Interfaces Web na faculdade, decidi continuar o projeto para melhorar e apresentar minhas habilidades e experiências.
