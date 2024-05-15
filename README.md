@@ -1,16 +1,8 @@
 ﻿# Curriculo-Web
 
-
 ## Sobre
 
 Este currículo web é uma representação interativa das minhas habilidades, experiências e informações de contato. É construído usando HTML, CSS e um pouco de JavaScript para funcionalidades interativas.
-
-## Estrutura de Pastas
-
-- **css/**: Contém os arquivos CSS para estilização do currículo.
-- **img/**: Armazena as imagens utilizadas no currículo, como minha foto.
-- **js/**: Aqui estão os scripts JavaScript utilizados no projeto.
-- **index.html**: O arquivo HTML principal que exibe o currículo.
 
 ## Como Visualizar
 
