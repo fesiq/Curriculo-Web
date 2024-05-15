@@ -23,6 +23,7 @@ header{
 .contato p #whatsapp {
     color: green;
     font-weight: bolder;
+    visibility: hidden;
 }
 
 .contato p #mailadd {
